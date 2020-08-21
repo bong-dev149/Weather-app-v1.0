@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container text-center">
+      <div class="lead">
+        <h3>Weather App 2020</h3>
+      </div>
+      <div class="location">
+        <h1>
+          <span class="location-lead"></span>
+          <span class="parent-loc"></span>
+        </h1>
+      </div>
+      <div class="temp-container">
+        <h2><span class="temp-lead"></span></h2>
+        <span class="weather-status"></span>
+        <div class="icon"></div>
+      </div>
+
+      <ul class="info-list">
+        <li>
+          <span class="badge badge-primary">Pressure</span>
+          <span class="pres"></span>
+        </li>
+        <li>
+          <span class="badge badge-secondary">Humidity</span>
+          <span class="humi"></span>
+        </li>
+        <li>
+          <span class="badge badge-light">Wind</span>
+          <span class="wind"></span>
+        </li>
+      </ul>
+      <div class="input">
+        <form>
+          <input type="text" placeholder="Change location" class="c-location" />
+          <input type="submit" value="Change" class="change-btn" />
+        </form>
+      </div>
+    </div>
+    <footer>&copy; Adity Sadhukhan</footer>
+
+    <script src="./weather.js"></script>
+    <script src="./ui.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
